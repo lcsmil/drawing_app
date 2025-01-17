@@ -19,14 +19,14 @@ when selected. I added the eraser as the last item in this list (with a differen
 - All tokens, spaces, constants and message string are in separate files, so they can be used in different places and 
 changed as needed.
 
-# State Management
+## State Management
 
 - Since the app doesn't need many complex UI changes (like loading screens, error screens, placeholders), I decided to 
 use Provider as the state manager. There are other options like bloc/cubit which are great for larger apps that need 
 to scale, but in the case of this challenge it would be unnecessary boilerplate, since there is no "silver bullet" for 
 state management.
 
-# Challenges encountered and solutions applied
+## Challenges encountered and solutions applied
 
 - Working with the zoom update at the same time as the drawing increased proportionally was a big challenge, which I 
 solved using the InteractiveViewer in both functionalities (zoom/pan and drawing), but using the same controller to 
@@ -43,7 +43,7 @@ case, the use of color tokens made this implementation easier.
 that clears the drawings on the screen. In some cases it has some strange behaviors of not clearing or clearing with any
 small movement of the cell phone (it needs some improvements/optimizations in my code).
 
-# Assumptions made during the development
+## Assumptions made during the development
 
 - I assumed that the user will use the app in a portrait mode, so I did not implement the functionality to rotate the 
 screen.
