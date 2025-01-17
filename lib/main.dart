@@ -1,5 +1,6 @@
 import 'package:drawing_app/src/features/drawing/presentation/controller/drawing_controller.dart';
 import 'package:drawing_app/src/features/drawing/presentation/screens/drawing_screen.dart';
+import 'package:drawing_app/src/features/drawing/resources/drawing_color_tokens.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,7 +18,7 @@ class DrawingApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          scaffoldBackgroundColor: Colors.white,
+          scaffoldBackgroundColor: DrawingColorTokens.white,
         ),
         home: const DrawingScreen(),
       ),

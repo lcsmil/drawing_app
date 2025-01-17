@@ -1,3 +1,4 @@
+import 'package:drawing_app/src/features/drawing/resources/drawing_color_tokens.dart';
 import 'package:flutter/material.dart';
 
 class DrawingController extends ChangeNotifier {
@@ -52,7 +53,7 @@ class DrawingController extends ChangeNotifier {
   void toggleEraser() {
     _isEraserMode = !_isEraserMode;
     if (_isEraserMode) {
-      _currentColor = Colors.white;
+      _currentColor = DrawingColorTokens.white;
     }
     notifyListeners();
   }
