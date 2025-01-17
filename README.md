@@ -1,4 +1,4 @@
-# Drawing_app
+# Drawing App
 
 This project is an interview challenge, which is a drawing app made using Flutter version 3.27.2.
 
@@ -45,7 +45,7 @@ small movement of the cell phone (it needs some improvements/optimizations in my
 
 # Assumptions made during the development
 
-- I assumed that the user will use the app in a landscape mode, so I did not implement the functionality to rotate the 
+- I assumed that the user will use the app in a portrait mode, so I did not implement the functionality to rotate the 
 screen.
 
 - I assumed that the UI didn't need to be identical to the one shown in the examples, it just had to follow the listed 
